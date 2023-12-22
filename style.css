@@ -13,7 +13,7 @@ list-style: none;
 margin-left: 30px;
 width: 80vw;}
 
-#logo {margin-left: 70px;
+#logo {margin-left: 5px;
 }
 
 li {margin-left: 50px;
@@ -39,5 +39,8 @@ display: flex;}
    .footer {    
     display: flex;
     justify-content: space-around;}
+
+    img {width: 50px;
+    margin-left: 20px;}
 
 
