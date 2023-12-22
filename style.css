@@ -1,20 +1,43 @@
 body {display: flex;
- ;}
+ width: 100%;
+margin: 0%;
+flex-direction: column;}
 
 nav {display: flex;
-margin-top: 20px;
+    height: 100px;
+    align-items: center;
 }
 
 #lista {display: flex;
 list-style: none;
-margin-left: 30px;}
+margin-left: 30px;
+width: 80vw;}
 
-#logo {margin-left: 70px;}
+#logo {margin-left: 70px;
+}
 
 li {margin-left: 50px;
 display: flex;}
 
-.bottone1 {display: flex;
-position: absolute;
-margin-left: 800px;
-margin-top: 20px;}
+.bottone1 {
+    color: blue;
+    border: solid 2px blue;
+    padding: 10px;
+}
+
+#conteiner {display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20vh;}
+
+     #button-cerca
+     {display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+   .footer {    
+    display: flex;
+    justify-content: space-around;}
+
+
